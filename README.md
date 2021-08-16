@@ -83,7 +83,7 @@ __Cluster Centroid Undersampling__
 
 Cluster centroid undersampling is akin to SMOTE. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class.
 
-![Cluster Centroid](images/cluster_centroids_us.PNG)
+![Cluster Centroid](images/cluster_centroids_us.png)
 
 Results:
 
