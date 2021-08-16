@@ -49,11 +49,11 @@ Results:
 
 Confusion Matrix:
 
-![Random Oversampling Confusion Matrix](images/random_os_confusion_matrix.png)
+![Random Oversampling Confusion Matrix](images/random_os_confusion_matrix.PNG)
 
 Classification Report:
 
-![Random Oversampling Classification Report](images/random_os_classification_report.png)
+![Random Oversampling Classification Report](images/random_os_classification_report.PNG)
 
 __SMOTE__
 
@@ -73,17 +73,17 @@ Results:
 
 Confusion Matrix:
 
-![SMOTE Confusion Matrix](images/smote_confusion_matrix.png)
+![SMOTE Confusion Matrix](images/smote_confusion_matrix.PNG)
 
 Classification Report:
 
-![SMOTE Classification Report](images/smote_classification_report.png)
+![SMOTE Classification Report](images/smote_classification_report.PNG)
 
 __Cluster Centroid Undersampling__
 
 Cluster centroid undersampling is akin to SMOTE. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class.
 
-![Cluster Centroid](images/cluster_centroids_us.png)
+![Cluster Centroid](images/cluster_centroids_us.PNG)
 
 Results:
 
@@ -97,11 +97,11 @@ Results:
 
 Confusion Matrix:
 
-![Cluster Centroid Confusion Matrix](images/cc_confusion_matrix.png)
+![Cluster Centroid Confusion Matrix](images/cc_confusion_matrix.PNG)
 
 Classification Report:
 
-![Cluster Centroid Classification Report](images/cc_classification_report.png)
+![Cluster Centroid Classification Report](images/cc_classification_report.PNG)
 
 __SMOTEEN__
 
@@ -125,11 +125,11 @@ Results:
 
 Confusion Matrix:
 
-![SMOTEEN Confusion Matrix](images/smoteen_confusion_matrix.png)
+![SMOTEEN Confusion Matrix](images/smoteen_confusion_matrix.PNG)
 
 Classification Report:
 
-![SMOTEEN Classification Report](images/smoteen_classification_report.png)
+![SMOTEEN Classification Report](images/smoteen_classification_report.PNG)
 
 __Balanced Random Forest Classifier__
 
@@ -147,15 +147,15 @@ Results:
 
 Confusion Matrix:
 
-![BRF Confusion Matrix](images/brf_confusion_matrix.png)
+![BRF Confusion Matrix](images/brf_confusion_matrix.PNG)
 
 Classification Report:
 
-![BRF Classification Report](images/brf_classification_report.png)
+![BRF Classification Report](images/brf_classification_report.PNG)
 
 Important Features:
 
-![BRF Important Features](images/brf_important_features.png)
+![BRF Important Features](images/brf_important_features.PNG)
 
 __Easy Ensemble Classifier__
 
@@ -173,11 +173,11 @@ Results:
 
 Confusion Matrix:
 
-![EEC Confusion Matrix](images/eec_confusion_matrix.png)
+![EEC Confusion Matrix](images/eec_confusion_matrix.PNG)
 
 Classification Report:
 
-![EEC Classification Report](images/eec_classification_report.png)
+![EEC Classification Report](images/eec_classification_report.PNG)
 
 ## Summary and Recommendation
 Credit Risk is a situation in which high recall is very important. With credit risk, for example, a high recall is more important than high precision or overall accuracy. High recall means that among people who actually have high-risk credit scores, most of them will be classified correctly. High precision, on the other hand, means that if the model prediction comes back as high-risk, there's a high likelihood that the loan applicant is actually high-risk. As such, I focused on the high-risk recall when evaluating these models.
